@@ -22,21 +22,45 @@ print(A)
 
 import math
 x = int(input("Введите число"))
-A = 1 - math.cos(x) / 2 * 0.5
+A =( 1 - math.cos(x) / 2) ** 0.5
 print(A)
 #333333333333333333333333333333
 from math import sin , cos , pow , log , exp
 x = int(input("Введите число"))
-A = 0.5 * abs(x) * log(x**2) / -5.0 / 4 * x + exp(x/2)
+A =  abs(x)**0.5 * log(x**2) / -5.0 / 4 * x + exp(x/2)
 print (A)
-
-
-
 
 
 #444444444444444444444444444444
 from math import sin , cos , pow
 x = int(input("Введите число"))
 y = int(input("Введите число"))
-a = pow(sin(x),2) + pow(cos( pow(y,3)),2)* 0.5
+a = (pow(sin(x),2) + pow(cos( pow(y,3)),2))** 0.5
 print(a)
+
+
+#########################5
+x = int(input("введите число"))
+y = int(input("введите число"))
+a = (x + (x**2 + 4*y**2) ** 0.5) ** 0.5
+print (a)
+######################66666
+from math import pow, exp 
+x = int(input("введите число"))
+a = int(input("введите число"))
+b = exp(-0.5) * (x - a)
+print (b)
+#77777777777777777777777777777
+from math import pow , exp , tan , sin
+x = int(input("введите число"))
+a = 1/tan(x) - sin((x**2 +1)**0.5)
+print (a)
+#888888888888888888888888888888
+from math import pow , exp , tan , sin , log10
+a = int(input("введите число"))
+b = int(input("введите число"))
+c = int(input("введите число"))
+d = int(input("введите число"))
+n = int(input("введите число"))
+F = 0.25 * (a-b) / (1/8 - abs(b) / (pow(10,n+3) + (log10(b)/c-d)))
+print(F)
