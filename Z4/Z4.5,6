@@ -74,7 +74,7 @@ a = (((abs(x-1))**0.5) - (abs(y))**1/3)/(1 + (x**2/2) + (y**2/4))
 b = x * (atan(z) + exp(-(x+3)))
 print (a)
 print (b)
-#2
+#2d
 from math import pow , exp , tan , sin , log10, log , cos, atan
 x = int(input("введите число"))
 y = int(input("введите число"))
