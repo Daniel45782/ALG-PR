@@ -64,3 +64,19 @@ d = int(input("введите число"))
 n = int(input("введите число"))
 F = 0.25 * (a-b) / (1/8 - abs(b) / (pow(10,n+3) + (log10(b)/c-d)))
 print(F)
+#nomer 7
+#1
+from math import pow , exp , tan , sin , log10, log , cos, atan
+x = int(input("введите число"))
+y = int(input("введите число"))
+z = int(input("введите число"))
+a = (((abs(x-1))**0.5) - (abs(y))**1/3)/(1 + (x**2/2) + (y**2/4))
+b = x * (atan(z) + exp(-(x+3)))
+print (a)
+print (b)
+#2
+from math import pow , exp , tan , sin , log10, log , cos, atan
+x = int(input("введите число"))
+y = int(input("введите число"))
+z = int(input("введите число"))
+a = 3 + exp(y-1)/(1+x**2) * (abs(y - tan(z)))
