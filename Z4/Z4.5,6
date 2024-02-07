@@ -1,0 +1,42 @@
+Z4
+t = 451
+a = 5.0/9 * t - 32
+print (a)
+############################
+Z5
+n = int(input("колличество учеников"))
+A = int(input("колличество пятерок"))
+B = int(input("колличество четверок"))
+C = int(input("колличество двоек"))
+D = n - (A + B + C)
+p = D * 100 / n
+print (p)
+################
+Z6
+
+############################# 1
+k = int(input("введите число"))
+A = 100**3 - 92**2 + k
+print(A)
+############################ 2 
+
+import math
+x = int(input("Введите число"))
+A = 1 - math.cos(x) / 2 * 0.5
+print(A)
+#333333333333333333333333333333
+from math import sin , cos , pow , log , exp
+x = int(input("Введите число"))
+A = 0.5 * abs(x) * log(x**2) / -5.0 / 4 * x + exp(x/2)
+print (A)
+
+
+
+
+
+#444444444444444444444444444444
+from math import sin , cos , pow
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+a = pow(sin(x),2) + pow(cos( pow(y,3)),2)* 0.5
+print(a)
